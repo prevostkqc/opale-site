@@ -1,6 +1,66 @@
 @import 'reset'; 
 @import 'root'; 
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    font-family: $main-font;
+}
+.p{
+    font-size: $main-p;
+    line-height: $main-text;
+    color: $main-color_terciary;
+}
+.cta{
+    position: relative;
+    display: block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: $main-color_terciary;
+    background: $main-color_primary ;
+    width: fit-content;
+    font-weight: $main-bold;   
+    text-decoration: none;
+    font-size: $main-h4;
+    transform: translateY(0px);
+    transition: all 0.3s;
+    z-index: 1;
+}
+.cta:hover{
+    transform: translateY(4px);
+}
+
+.cta-container{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+.cta-container::before{
+    content:"";
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: $main-color_terciary;
+    width: 100%;
+    font-weight: $main-bold;   
+    transform: translateY(5px);
+    transition: all 0.3s;
+}
+
+
 @media screen and (max-width: 900px){
   
 }

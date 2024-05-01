@@ -6,7 +6,7 @@
 export default {
   name: 'App',
   mounted() {
-    document.title = "Kévin Prévost - Développeur Front-end";
+    document.title = "Pokémon Opale";
     const meta = document.createElement('meta');
     meta.name = 'robots';
     // meta.content = 'noindex, nofollow';
