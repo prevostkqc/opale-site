@@ -66,6 +66,7 @@
         top:0;
         left:0;
         z-index: 100;
+        filter: drop-shadow(1px 1px 14px #000000AA);
     }
     .menu{
         width: 100%;
