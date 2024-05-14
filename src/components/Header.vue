@@ -9,21 +9,21 @@
                     </a>
                 </div>
                 
-                <div class="cta-container">
+                <div class="cta-container  hide">
                     <a href="#telechargement" class="cta">
                         Télechargement
                     </a>
                 </div>
                 
                 <div class="cta-container">
-                    <a href="#maj" class="cta">
-                        Notes de mise à jour
+                    <a href="#modes" class="cta">
+                        Modes de jeu
                     </a>
                 </div>
                 
                 <div class="cta-container">
-                    <a href="#modes" class="cta">
-                        Modes de jeu
+                    <a href="#maj" class="cta">
+                        Notes de mise à jour
                     </a>
                 </div>
                 
@@ -40,7 +40,7 @@
 
 <script>
     export default {
-        name: 'UneVue',
+        name: 'Header',
         data() {
             return {
             };

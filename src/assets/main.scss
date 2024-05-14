@@ -1,6 +1,9 @@
 @import 'reset'; 
 @import 'root'; 
 
+html {
+    scroll-behavior: smooth;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,10 +19,28 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     font-family: $main-font;
 }
-.p{
+p{
     font-size: $main-p;
     line-height: $main-text;
     color: $main-color_terciary;
+}
+h2{
+    font-size: $main-h2;
+    font-weight: $main-bold;
+    color: $main-color_terciary;
+}
+h3{
+    font-size: $main-h3;
+    font-weight: $main-bold;
+    color: $main-color_terciary;
+}
+h4{
+    font-size: $main-h4;
+    font-weight: $main-semi-bold;
+    color: $main-color_terciary;
+}
+.bold{
+    font-weight: $main-bold;
 }
 .cta{
     position: relative;
@@ -34,6 +55,7 @@ time, mark, audio, video {
     font-size: $main-h4;
     transform: translateY(0px);
     transition: all 0.3s;
+    border: solid 2px $main-color_terciary ;
     z-index: 1;
 }
 .cta:hover{
@@ -59,7 +81,34 @@ time, mark, audio, video {
     transform: translateY(5px);
     transition: all 0.3s;
 }
-
+.view-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    background: $main-color_secondary;
+    padding-top:100px;
+}
+.view-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+.titre-pokeball{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.texte-cta{
+    padding-bottom: 20px;
+}
+.hide{
+    display:none;
+}
 
 @media screen and (max-width: 900px){
   
