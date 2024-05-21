@@ -66,6 +66,7 @@ h4{
     position: relative;
     width: fit-content;
     height: fit-content;
+    cursor: pointer;
 }
 .cta-container::before{
     content:"";
@@ -94,7 +95,7 @@ h4{
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
 }
 .titre-pokeball{

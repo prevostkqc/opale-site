@@ -2,20 +2,24 @@
     <!-- info -->
         <section class="view-container  infos" id="modes">
             <div class="view-content">
-                <input type="radio" name="modes" class="input-modes" id="modes-mode" checked="checked">
+                <input type="radio" name="modes" class="input-modes" id="modes-mode" checked>
                 <input type="radio" name="modes" class="input-modes" id="modes-lieux">
+                <input type="radio" name="modes" class="input-modes" id="modes-pokemon">
                 <article class="infos-container">
                     <div class="zone-cta-info">
-                        
-                        
-                        <label class="cta-container" for="modes-lieux">
-                            <span class="cta">
-                                Des lieux
-                            </span>
-                        </label>
-                        <label class="cta-container" for="modes-mode">
+                        <label class="cta-container  cta-container--modes" for="modes-mode">
                             <span class="cta">
                                 Modes de jeu
+                            </span>
+                        </label>
+                        <label class="cta-container  cta-container--lieux" for="modes-lieux">
+                            <span class="cta">
+                                Des lieux mémorables
+                            </span>
+                        </label>
+                        <label class="cta-container  cta-container--pokemon" for="modes-pokemon">
+                            <span class="cta">
+                                Plus de POKéMON
                             </span>
                         </label>
 
@@ -40,7 +44,7 @@
                     </div>
                     <div class="une-info  une-info--lieux">
                         <h2 class="titre-pokeball">
-                            <img src="images/pokeball.svg" alt="pokéball">Des endroits hors du commun !
+                            <img src="images/pokeball.svg" class="pokeball" alt="pokéball">Des endroits hors du commun&nbsp;!
                         </h2>
                         <div class="zone-text">
                             <p class="text">
@@ -49,9 +53,20 @@
                             </p>
                         </div>
                     </div>
+                    <div class="une-info  une-info--pokemon">
+                        <h2 class="titre-pokeball">
+                            <img src="images/pokeball.svg" class="pokeball" alt="pokéball">Une multitude de Pokémon et d'équipes différentes&nbsp;!
+                        </h2>
+                        <div class="zone-text">
+                            <p class="text">
+                                Bienvenue dans l'univers captivant de Pokémon Opale, où chaque dresseur peut explorer une myriade de possibilités grâce à une multitude de Pokémon et d'équipes variées. Que vous soyez un stratège chevronné ou un nouveau venu, les différentes régions offrent des combinaisons infinies pour créer l'équipe de vos rêves.
+                                Composez des équipes équilibrées en fonction de vos préférences et de vos stratégies. Que vous préfériez une équipe défensive, offensive ou polyvalente, les combinaisons possibles sont illimitées. Adaptez votre équipe aux défis que vous rencontrez pour maximiser vos chances de succès.
+                            </p>
+                        </div>
+                    </div>
                     <div class="une-info  une-info--modes">
                         <h2 class="titre-pokeball">
-                            <img src="images/pokeball.svg" alt="pokéball">Des modes de jeu extraordinaires
+                            <img src="images/pokeball.svg" class="pokeball" alt="pokéball">Des façons de jouer extraordinaires&nbsp;!
                         </h2>
                         <div class="zone-text">
                             <p class="text">
@@ -64,21 +79,24 @@
                 <article class="pokedex">
                     <div class="screen-pokedex">
                         <img src="images/screens/opale2.gif"    class="screen-opale  screen-opale--mode  screen-opale--1" alt="apercu du jeu">
-                        <img src="images/screens/screen12.jpg"  class="screen-opale  screen-opale--mode  screen-opale--2" alt="apercu du jeu">
-                        <img src="images/screens/opale4.gif"    class="screen-opale  screen-opale--mode  screen-opale--3" alt="apercu du jeu">
+                        <img src="images/screens/screen11.jpg"  class="screen-opale  screen-opale--mode  screen-opale--2" alt="apercu du jeu">
+                        <img src="images/screens/screen12.jpg"  class="screen-opale  screen-opale--mode  screen-opale--3" alt="apercu du jeu">
 
                         <img src="images/screens/screen8.jpg"   class="screen-opale  screen-opale--lieux  screen-opale--1" alt="apercu du jeu">
                         <img src="images/screens/screen1.jpg"   class="screen-opale  screen-opale--lieux  screen-opale--2" alt="apercu du jeu">
                         <img src="images/screens/screen7.jpg"   class="screen-opale  screen-opale--lieux  screen-opale--3" alt="apercu du jeu">
 
+                        <img src="images/screens/opale4.gif"    class="screen-opale  screen-opale--pokemon  screen-opale--1" alt="apercu du jeu">
+                        <img src="images/screens/screen6.jpg"   class="screen-opale  screen-opale--pokemon  screen-opale--2" alt="apercu du jeu">
+                        <img src="images/screens/screen10.jpg"  class="screen-opale  screen-opale--pokemon  screen-opale--3" alt="apercu du jeu">
+
+
                         <img src="images/screens/screen3.jpg"   class="screen-opale  " alt="apercu du jeu">
                         <img src="images/screens/screen4.jpg"   class="screen-opale  " alt="apercu du jeu">
                         <img src="images/screens/screen5.jpg"   class="screen-opale  " alt="apercu du jeu">
-                        <img src="images/screens/screen6.jpg"   class="screen-opale  " alt="apercu du jeu">
+
                         <img src="images/screens/opale3.gif"   class="screen-opale  " alt="apercu du jeu">
                         <img src="images/screens/screen2.jpg"   class="screen-opale  " alt="apercu du jeu">
-                        <img src="images/screens/screen10.jpg"  class="screen-opale  " alt="apercu du jeu">
-                        <img src="images/screens/screen11.jpg"  class="screen-opale  " alt="apercu du jeu">
                     </div>
                     <img src="images/pokedex-green.png" class="pokedex-img  pokedex-img--green" alt="Pokédex">
                     <img src="images/pokedex-green-light.png" class="pokedex-img  pokedex-img--green-light"  alt="Pokédex">
@@ -114,6 +132,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+    .view-container{
+        padding-bottom:60px;
     }
     .pokedex{
         position: relative;
@@ -164,23 +185,23 @@
     .zone-cta-info{
         display: flex;
         gap: 20px;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        padding-left: 70px;
     }
     .screen-opale{
        display: none;
     }
-    .une-info--modes{
+    .une-info--modes,
+    .une-info--lieux,
+    .une-info--pokemon{
         display: none;
     }
     #modes-mode:checked ~ .infos-container .une-info--modes,
-    #modes-mode:checked ~ .pokedex .screen-opale--mode{
-        display: block;
-    }
-    .une-info--lieux{
-        display: none;
-    }
+    #modes-mode:checked ~ .pokedex .screen-opale--mode,
     #modes-lieux:checked ~ .infos-container .une-info--lieux,
-    #modes-lieux:checked ~ .pokedex .screen-opale--lieux{
+    #modes-lieux:checked ~ .pokedex .screen-opale--lieux,
+    #modes-pokemon:checked ~ .infos-container .une-info--pokemon,
+    #modes-pokemon:checked ~ .pokedex .screen-opale--pokemon{
         display: block;
     }
     .input-modes{
@@ -194,6 +215,24 @@
     }
     .screen-opale--3{
         animation: afficher-3 10s infinite;
+    }
+    .cta-container:after{
+        content: '';
+        background-image: url(/public/images/arrow_right.svg);
+        display: none;
+        position: absolute;
+        width: 40px;
+        height: 50px;
+        margin-top: 10px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        left: -50px;
+        top: -13px;
+    }
+    #modes-lieux:checked    ~ .infos-container .cta-container--lieux:after,
+    #modes-mode:checked     ~ .infos-container .cta-container--modes:after,
+    #modes-pokemon:checked  ~ .infos-container .cta-container--pokemon:after{
+        display: block;
     }
     @keyframes clignotement {
         0% {
@@ -262,7 +301,112 @@
             opacity: 1;
         }
     }
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 1600px){
+        .view-content{
+            flex-direction: column;
+            gap: 20px;
+            padding-bottom: 50px;
+        }
+        .infos-container{
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            width: calc(100% - 100px);
+        }
+        .une-info{
+            width: 100%;
+            max-width: calc(100% - 100px);
+        }
+        .zone-cta-info{
+            display: flex;
+            gap: 20px;
+            padding-left: 70px;
+            align-content: space-between;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .zone-cta-info{
+            display: flex;
+            gap: 20px;
+            padding-left: 70px;
+            align-content: space-between;
+            flex-direction: row;
+            justify-content: space-between;
+            width: calc(100% - 70px);
+        }
+    }
+    @media screen and (max-width: 1200px){
+        .infos-container{
+            padding: 20px;
+            width: calc(100% - 40px);
+        }
+        .zone-cta-info{
+            padding-left: 40px;
+            width: calc(100% - 70px);
+        }
+        .cta-container:after{
+            left: -35px;
+        }
+    }
 
+    @media screen and (max-width: 1000px){
+        .zone-cta-info[data-v-393ad305] {
+            padding-left: 70px;
+            align-content: space-between;
+            flex-direction: column;
+            flex-wrap:wrap;
+        }
+        .infos-container{
+            overflow: hidden;
+        }
+    }
+
+    @media screen and (max-width: 900px){
+        .pokedex-img{
+            display: none;
+        }
+        .pokedex {
+            left: 0px;
+            width: 100%;
+            height: fit-content;
+            padding-bottom: 50px;
+        }
+        .screen-pokedex{
+            width: 80%;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 20px;
+            position: relative;
+        }
+        .view-container{
+            padding-bottom: 20px;
+        }
+        .screen-opale{
+            border: solid 3px #000000;
+            left: -5px;
+            outline: solid 10px #d51f3f;
+        }
+        .titre-pokeball{
+            flex-wrap: wrap;
+        }
+        .une-info{
+            padding: 50px;
+        }
+        .cta-container{
+            width: calc(100% - 70px);
+            padding-left:0 !important;
+        }
+        .cta{
+            width: calc(100% - 70px);
+            left: 0;
+        }
+        .zone-cta-info{
+            width: calc(100% - 70px);
+            max-width: 80vw;
+        }
+        .cta-container::after{
+            display: none !important;
+        }
     }
 </style>

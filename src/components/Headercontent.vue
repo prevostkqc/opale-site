@@ -311,4 +311,39 @@
             opacity: 1;
         }
     }
+    
+    @media screen and (max-width: 1200px){
+        .header-container{
+            height: 50vh;
+        }
+        .darkrai{
+            width: 220px;
+        }
+        .entei-animation{
+            width: 320px;
+            right: 20px;
+            bottom: -60px;
+        }
+    }
+    
+    @media screen and (max-width: 600px){
+        .darkrai{
+            display:none;
+        }
+        .header-container{
+            height: 80vh;
+        }
+        .titre-logo{
+            top: 170px;
+            position: absolute;
+            left: 20px;
+            width: 300px;
+        }
+        .arrow-scroll{
+            display: none;
+        }
+        .titre-logo--mobile{
+            max-width: 50vw;
+        }
+    }
 </style>

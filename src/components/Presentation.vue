@@ -93,7 +93,22 @@
         border-top: solid 1px #000000;
         border-bottom: solid 1px #000000;
     }
-    @media screen and (max-width: 900px){
-
+    @media screen and (max-width: 1200px){
+        .view-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 1600px;
+            margin: auto;
+            flex-wrap: wrap;
+        }
+        .view-container{
+            padding-bottom: 100px;
+        }
+        .Presentation-image{
+            display:none;
+        }
     }
+    
 </style>
