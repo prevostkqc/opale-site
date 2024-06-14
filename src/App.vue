@@ -1,16 +1,20 @@
 <template>
-    <router-view></router-view>
+  <router-view></router-view>
 </template>
 
 <script>
+import { useHead } from '@vueuse/head';
+
 export default {
   name: 'App',
-  mounted() {
-    document.title = "Pokémon Opale";
-    const meta = document.createElement('meta');
-    meta.name = 'robots';
-    // meta.content = 'noindex, nofollow';
-    document.head.appendChild(meta);
+  setup() {
+    useHead({
+      title: 'Pokémon Opale',
+      meta: [
+        { name: 'description', content: 'Bienvenue sur le site Pokémon Opale. Découvrez tout sur le jeu et ses fonctionnalités.' },
+        { name: 'robots', content: 'index, follow' }
+      ]
+    });
   }
 }
 </script>
