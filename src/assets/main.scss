@@ -57,6 +57,7 @@ h4{
     transition: all 0.3s;
     border: solid 2px $main-color_terciary ;
     z-index: 1;
+    cursor: pointer;
 }
 .cta:hover{
     transform: translateY(4px);

@@ -2,8 +2,8 @@
     <!-- footer -->
         <footer class="view-container  footer">
             <h4 class="text-footer">
-                © 2024 - POKéMON version Opale
-                2018-2024 Projet Cobra Doré
+                © 2024 - POKéMON version Opale - 
+                2018-2024 Projet Cobra Doré - 
                 Angi-MK
             </h4>
         </footer>
@@ -35,7 +35,7 @@
         justify-content: flex-end;
         padding-top: 20px;
         z-index: 100;
-        filter: drop-shadow(1px 1px 14px #000000AA);
+        position: relative;
     }
     .text-footer{
         position: absolute;

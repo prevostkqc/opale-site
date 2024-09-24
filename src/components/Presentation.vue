@@ -11,17 +11,17 @@
                 </article>
                 <article class="Presentation-texte">
                     <h2 class="titre-pokeball">
-                        <img src="images/pokeball.svg" alt="pokéball">Découvrez Pokémon Opale, une expérience immersive sur PC et Android qui redéfinit l'aventure Pokémon !
+                        <img src="images/pokeball.svg" alt="pokéball">Découvrez POKéMON Opale, une expérience immersive sur PC et Android qui redéfinit l'aventure POKéMON&nbsp;!
                     </h2>
                     <p class="texte-cta">
                         Explorez <span class="bold">60 villes</span> réparties dans <span class="bold">5 régions</span> possèdeant chacune son charme et ses mystères à découvrir.
-                        Capturez <span class="bold">plus de 600 Pokémon</span>, enrichissez votre collection et formez l'équipe ultime.
+                        Capturez <span class="bold">plus de 600 POKéMON</span>, enrichissez votre collection et formez l'équipe ultime.
                         Obtenez <span class="bold">40 badges</span> en relevant les défis des arènes qui mettront à l'épreuve vos compétences.
                         <span class="bold">Les PP réduits</span> ajoutent une dimension stratégique supplémentaire, mais soyez tranquille, ils sont restaurés en fin de combat.
                         L'efficacité de capture augmente avec <span class="bold">l'expérience du joueur</span>, vous récompensant pour vos efforts et votre progression.
                         Récupérez <span class="bold">151 cartes</span> dans les boosters, et collectionnez-les pour obtenir des récompenses exclusives.
                         <br/>
-                        <span class="bold">Embarquez pour une aventure épique avec Pokémon Opale et devenez le meilleur dresseur que le monde ait connu !</span>
+                        <span class="bold">Embarquez pour une aventure épique avec POKéMON Opale et devenez le meilleur dresseur que le monde ait connu&nbsp;!</span>
                     </p>
                     <div class="cta-container  hide">
                         <a href="#telechargement" class="cta">
@@ -53,6 +53,10 @@
         width:100%;
         position: relative;
         z-index: 1;
+        background-image: linear-gradient(90deg, rgb(0 0 0 / 2%) 2px, #00000000 1px), linear-gradient(rgb(0 0 0 / 2%) 2px, #00000000 1px);
+        background-size: 10px 10px;
+        animation: scroll-grid 1s linear infinite;
+
     }
     .presentation-card{
         border-radius: 20px;
@@ -79,7 +83,7 @@
         filter: drop-shadow(-12px 12px 6px #00000055);
     }
     .card-front {
-        z-index: 2; /* Assurez-vous que l'avant est au-dessus au début */
+        z-index: 2;
         transform: rotateY(0deg);
     }
     .card-back {
@@ -92,6 +96,14 @@
         padding: 30px 30px 30px 50px;
         border-top: solid 1px #000000;
         border-bottom: solid 1px #000000;
+    }
+    @keyframes scroll-grid {
+        0% {
+            background-position: 30px 10px;
+        }
+        100% {
+            background-position: 0px 0px;
+        }
     }
     @media screen and (max-width: 1200px){
         .view-content {

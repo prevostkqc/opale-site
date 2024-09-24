@@ -159,6 +159,7 @@
         
         .menu-toggle:checked ~ .menu{
             display: flex;
+            flex-direction: column;
             left: 0;
         }
         .titre-logo--mobile{

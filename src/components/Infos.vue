@@ -1,10 +1,11 @@
 <template>
-    <!-- info -->
+    <!-- infos -->
         <section class="view-container  infos" id="modes">
             <div class="view-content">
                 <input type="radio" name="modes" class="input-modes" id="modes-mode" checked>
                 <input type="radio" name="modes" class="input-modes" id="modes-lieux">
                 <input type="radio" name="modes" class="input-modes" id="modes-pokemon">
+                <input type="radio" name="modes" class="input-modes" id="modes-difficultes">
                 <article class="infos-container">
                     <div class="zone-cta-info">
                         <label class="cta-container  cta-container--modes" for="modes-mode">
@@ -20,6 +21,11 @@
                         <label class="cta-container  cta-container--pokemon" for="modes-pokemon">
                             <span class="cta">
                                 Plus de POKéMON
+                            </span>
+                        </label>
+                        <label class="cta-container  cta-container--difficultes" for="modes-difficultes">
+                            <span class="cta">
+                                Plus de challenges
                             </span>
                         </label>
 
@@ -48,19 +54,19 @@
                         </h2>
                         <div class="zone-text">
                             <p class="text">
-                                Découvrez un monde vaste et immersif en Parcourant des régions inédites, rencontrez des Pokémon rares et découvrez des secrets cachés. Chaque région est riche en histoires et en défis, vous permettant de vivre une aventure sans fin.
-                                Plongez dans ce rêve où l'extraordinaire devient la norme. Pokémon Opale vous emmène à la découverte des lieux les plus fascinants et mystérieux. Que vous soyez un aventurier chevronné ou un rêveur en quête d'évasion, ces destinations uniques promettent de vous émerveiller et de vous inspirer.
+                                Découvrez un monde <span class="bold">vaste et immersif</span> en Parcourant des régions inédites, rencontrez des POKéMON rares et découvrez des secrets cachés. Chaque région est riche en histoires et en défis, vous permettant de vivre <span class="bold">une aventure sans fin</span>.
+                                <br>Plongez dans ce rêve où l'extraordinaire devient votre quotidien. POKéMON Opale vous emmène à la découverte des <span class="bold">lieux les plus fascinants et mystérieux</span>. Que vous soyez un aventurier chevronné ou un rêveur en quête d'évasion, ces destinations uniques promettent de vous émerveiller et de vous inspirer.
                             </p>
                         </div>
                     </div>
                     <div class="une-info  une-info--pokemon">
                         <h2 class="titre-pokeball">
-                            <img src="images/pokeball.svg" class="pokeball" alt="pokéball">Une multitude de Pokémon et d'équipes différentes&nbsp;!
+                            <img src="images/pokeball.svg" class="pokeball" alt="pokéball">Une multitude de POKéMON et d'équipes différentes&nbsp;!
                         </h2>
                         <div class="zone-text">
                             <p class="text">
-                                Bienvenue dans l'univers captivant de Pokémon Opale, où chaque dresseur peut explorer une myriade de possibilités grâce à une multitude de Pokémon et d'équipes variées. Que vous soyez un stratège chevronné ou un nouveau venu, les différentes régions offrent des combinaisons infinies pour créer l'équipe de vos rêves.
-                                Composez des équipes équilibrées en fonction de vos préférences et de vos stratégies. Que vous préfériez une équipe défensive, offensive ou polyvalente, les combinaisons possibles sont illimitées. Adaptez votre équipe aux défis que vous rencontrez pour maximiser vos chances de succès.
+                                Bienvenue dans l'univers captivant de POKéMON Opale, où chaque dresseur peut explorer une myriade de possibilités grâce à <span class="bold">une multitude de POKéMON et d'équipes variées</span>. Que vous soyez un stratège chevronné ou un nouveau venu, les différentes régions offrent des combinaisons infinies pour créer <span class="bold">l'équipe de vos rêves</span>.<br>
+                                Composez des équipes équilibrées en fonction de vos préférences et de vos stratégies. Que vous préfériez une équipe défensive, offensive ou polyvalente, <span class="bold">les combinaisons possibles sont illimitées</span>. Adaptez votre équipe aux défis que vous rencontrez pour maximiser vos chances de succès.
                             </p>
                         </div>
                     </div>
@@ -70,8 +76,19 @@
                         </h2>
                         <div class="zone-text">
                             <p class="text">
-                                Pokémon Opale vous offre des modes de jeu extraordinaires qui enrichissent votre expérience et vous plongent dans des aventures variées et palpitantes. Quel que soit votre style de jeu, vous trouverez dans Pokémon Opale de quoi satisfaire votre passion et vivre des moments inoubliables. Préparez-vous à explorer, combattre, coopérer et créer comme jamais auparavant !
-                                Résolvez des casse-têtes complexes pour avancer dans l'histoire et débloquer des récompenses spéciales. Chaque puzzle vous demandera réflexion et créativité, ajoutant une dimension supplémentaire à votre aventure Pokémon.
+                                POKéMON Opale vous offre des modes de jeu extraordinaires qui enrichissent votre expérience et vous plongent dans <span class="bold">des aventures variées et palpitantes</span>. Quel que soit votre style de jeu, vous trouverez dans POKéMON Opale de quoi satisfaire votre passion et <span class="bold">vivre des moments inoubliables</span>. Préparez-vous à explorer, combattre, coopérer et créer comme jamais auparavant&nbsp;!<br>
+                                Résolvez des casse-têtes complexes pour avancer dans l'histoire et <span class="bold">débloquer des récompenses spéciales</span>. Chaque puzzle vous demandera réflexion et créativité, ajoutant une dimension supplémentaire à votre aventure POKéMON.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="une-info  une-info--difficultes">
+                        <h2 class="titre-pokeball">
+                            <img src="images/pokeball.svg" class="pokeball" alt="pokéball">Relevez des défis toujours plus grands&nbsp;!
+                        </h2>
+                        <div class="zone-text">
+                            <p class="text">
+                                POKéMON Opale vous propose de <span class="bold">modifier la difficulté</span> avec des options de jeu qui vous permettent de personnaliser votre expérience. Que vous soyez un joueur débutant ou un vétéran, vous trouverez dans POKéMON Opale des<span class="bold"> défis à votre mesure</span>. Augmentez la difficulté pour tester vos compétences et relever des défis toujours plus grands.<br>
+                                Personnalisez votre aventure en choisissant parmi une variété d'options de jeu qui <span class="bold">modifient la difficulté et les mécaniques de jeu</span>. Que vous souhaitiez un défi plus corsé ou une expérience plus détendue, POKéMON Opale vous offre la possibilité de <span class="bold">jouer à votre rythme</span> et selon vos préférences.
                             </p>
                         </div>
                     </div>
@@ -90,10 +107,11 @@
                         <img src="images/screens/screen6.jpg"   class="screen-opale  screen-opale--pokemon  screen-opale--2" alt="apercu du jeu">
                         <img src="images/screens/screen10.jpg"  class="screen-opale  screen-opale--pokemon  screen-opale--3" alt="apercu du jeu">
 
+                        <img src="images/screens/screen3.jpg"   class="screen-opale  screen-opale--difficultes  screen-opale--1" alt="apercu du jeu">
+                        <img src="images/screens/screen5.jpg"   class="screen-opale  screen-opale--difficultes  screen-opale--2" alt="apercu du jeu">
+                        <img src="images/screens/screen10.jpg"   class="screen-opale  screen-opale--difficultes  screen-opale--3" alt="apercu du jeu">
 
-                        <img src="images/screens/screen3.jpg"   class="screen-opale  " alt="apercu du jeu">
-                        <img src="images/screens/screen4.jpg"   class="screen-opale  " alt="apercu du jeu">
-                        <img src="images/screens/screen5.jpg"   class="screen-opale  " alt="apercu du jeu">
+
 
                         <img src="images/screens/opale3.gif"   class="screen-opale  " alt="apercu du jeu">
                         <img src="images/screens/screen2.jpg"   class="screen-opale  " alt="apercu du jeu">
@@ -106,7 +124,7 @@
                 </article>
             </div>
         </section>
-    <!-- info -->
+    <!-- infos -->
 </template>
 
 <script>
@@ -132,6 +150,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        background-attachment: fixed;
     }
     .view-container{
         padding-bottom:60px;
@@ -174,6 +193,7 @@
         border-radius: 20px 0 0 20px;
         padding: 0 20px;
         gap: 20px;
+        filter: drop-shadow(2px 4px 6px black);
     }
     .une-info{
         width: 100%;
@@ -193,7 +213,8 @@
     }
     .une-info--modes,
     .une-info--lieux,
-    .une-info--pokemon{
+    .une-info--pokemon,
+    .une-info--difficultes{
         display: none;
     }
     #modes-mode:checked ~ .infos-container .une-info--modes,
@@ -201,7 +222,9 @@
     #modes-lieux:checked ~ .infos-container .une-info--lieux,
     #modes-lieux:checked ~ .pokedex .screen-opale--lieux,
     #modes-pokemon:checked ~ .infos-container .une-info--pokemon,
-    #modes-pokemon:checked ~ .pokedex .screen-opale--pokemon{
+    #modes-pokemon:checked ~ .pokedex .screen-opale--pokemon,
+    #modes-difficultes:checked ~ .infos-container .une-info--difficultes,
+    #modes-difficultes:checked ~ .pokedex .screen-opale--difficultes{
         display: block;
     }
     .input-modes{
@@ -229,9 +252,10 @@
         left: -50px;
         top: -13px;
     }
-    #modes-lieux:checked    ~ .infos-container .cta-container--lieux:after,
-    #modes-mode:checked     ~ .infos-container .cta-container--modes:after,
-    #modes-pokemon:checked  ~ .infos-container .cta-container--pokemon:after{
+    #modes-lieux:checked        ~ .infos-container .cta-container--lieux:after,
+    #modes-mode:checked         ~ .infos-container .cta-container--modes:after,
+    #modes-pokemon:checked      ~ .infos-container .cta-container--pokemon:after,
+    #modes-difficultes:checked  ~ .infos-container .cta-container--difficultes:after{
         display: block;
     }
     @keyframes clignotement {
@@ -369,7 +393,6 @@
             left: 0px;
             width: 100%;
             height: fit-content;
-            padding-bottom: 50px;
         }
         .screen-pokedex{
             width: 80%;
@@ -378,6 +401,11 @@
             right: 0;
             top: 20px;
             position: relative;
+
+
+            
+            width: 269px;
+            height: 302px;
         }
         .view-container{
             padding-bottom: 20px;
@@ -402,8 +430,12 @@
             left: 0;
         }
         .zone-cta-info{
-            width: calc(100% - 70px);
-            max-width: 80vw;
+            padding-left: 70px;
+            align-content: space-between;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 100%;
         }
         .cta-container::after{
             display: none !important;

@@ -4,6 +4,8 @@
       <Headercontent />
       <Presentation />
       <Infos />
+      <Apropos />
+      <Telechargement />
       <Footer />
     </main>
   </template>
@@ -14,6 +16,8 @@
   import Headercontent from './Headercontent.vue';
   import Presentation from './Presentation.vue';
   import Infos from './Infos.vue';
+  import Apropos from './Apropos.vue';
+  import Telechargement from './Telechargement.vue';
   import Footer from './Footer.vue';
   
   export default {
@@ -22,6 +26,8 @@
       Headercontent,
       Presentation,
       Infos,
+      Apropos,
+      Telechargement,
       Footer
     },
     data() {
